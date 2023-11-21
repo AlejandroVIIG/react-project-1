@@ -1,0 +1,27 @@
+.quoteBox {
+    max-width: 400px;
+    display: grid;
+    justify-items: center;
+    color: white;
+    text-align: center;
+}
+
+.quoteBox__box {
+    min-height: 70px;
+}
+
+.quote__author {
+    position:absolute;
+    bottom: 10px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+button {
+    background: url("/public/images/boton.svg");
+    background-position: center;
+    background-size: cover;
+    width:35px;
+    height:35px;
+    border: 0px;
+}
